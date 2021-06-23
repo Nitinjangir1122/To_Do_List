@@ -1,0 +1,105 @@
+@font-face {
+    font-family: Exo-Medium;
+    src: url("./fonts/Exo2.0-Medium.otf");
+}
+@font-face {
+    font-family: Exo-Light;
+    src: url("./fonts/Exo2.0-Light.otf");
+}
+@font-face {
+    font-family: Exo-Bold;
+    src: url("./fonts/Exo2.0-Bold.otf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Exo-Medium;
+}
+
+/* Header Css Start From Here */
+
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: rgb(245, 245, 245);
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+.navbar .nav-links a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+
+/* Todos Css Start From Here */
+
+.todos-container{
+    width: 100%;
+    height: auto;
+    padding: 40px 10% ;
+}
+.todos-container .head{
+    color: red;
+}
+.todo_item{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 50px;
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 5px;
+}
+.todo_item a{
+    cursor: pointer;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.input_field{
+    width: 80%;
+    height: auto;
+    margin: 0 auto 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+    border-radius: 9px;
+    border: 2px solid rgb(95, 95, 95);
+}
+.input_field h3{
+    margin-bottom: 20px;
+}
+.input_field label{
+    margin: 10px 10px;
+}
+.input_field input{
+    padding: 5px 25px;
+    border-radius: 5px;
+    outline: none;
+}
+.input_field .Add_btn{
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+
+/* Footer Css Start From Here */
+
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
